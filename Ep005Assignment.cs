@@ -80,7 +80,7 @@ namespace TWiT.Tv.Coding101
 		{
 			Console.Title = "TwiT.Tv Coding 101 - Assigmnet 5"; //Set the title of the console window.
 
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			Console.WriteLine("*** Welcome, {0}, to Coding 101! ***", name); //Print a welcome message using a personalized name.
 			Console.WriteLine("Please select a menu item.");
@@ -99,7 +99,7 @@ namespace TWiT.Tv.Coding101
 		/// <param name="name">The name of the user to say hello to.</param>
 		static void SayHello(string name)
 		{
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			Console.ForegroundColor = ConsoleColor.Cyan; //Changed the color of the text.
 			Console.WriteLine("Hi {0}!", name); //Say Hello to the user.
@@ -115,7 +115,7 @@ namespace TWiT.Tv.Coding101
 		/// <returns>returns a binary number as a string for displaying to users</returns>
 		static void ConvertIntToBinary()
 		{
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			//Ask the user to enter a binary number:
 			Console.Write("Please Enter a Whole Number (example: 240): ");
@@ -164,7 +164,7 @@ namespace TWiT.Tv.Coding101
 		/// </summary>
 		static void RepeatWord()
 		{
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			Console.Write("What word do you want to repeat?: ");
 			string textToRepeat = Console.ReadLine();
@@ -195,7 +195,7 @@ namespace TWiT.Tv.Coding101
 		/// </summary>
 		static void GetKeyValue()
 		{
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			bool run = true; //Initialise a variable that determines whether or not the method runs.
 			while (run == true) //Loop the method while the run variable is true.
@@ -223,7 +223,7 @@ namespace TWiT.Tv.Coding101
 		/// </summary>
 		static void ErrorMessage()
 		{
-			Console.Clear(); //CLears the pervious information from the console window so the method starts with a blank screen.
+			Console.Clear(); //Clears the pervious information from the console window so the method starts with a blank screen.
 
 			Console.ForegroundColor = ConsoleColor.Red; //Change the text colour to red.
 			Console.WriteLine("Invalid Input!\nPlease try again."); //Print the error message.
