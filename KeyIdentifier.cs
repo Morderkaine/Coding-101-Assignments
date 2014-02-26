@@ -8,7 +8,7 @@ namespace KeyIdentifier
 		{
 			Console.Title = "Key Identifier"; //Change the window title to display the name of the program.
 
-			bool run = true; //Iniallize a variable that defines whether or not the program runs.
+			bool run = true; //Initialize a variable that defines whether or not the program runs.
 			while (run == true) //Run the program if the run variable is true.
 			{
 				Console.Write ("Press a key. "); //Prompt the user to press a key.
